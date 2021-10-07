@@ -78,6 +78,6 @@ public class RuleTest {
 
         LOG.info("Final checks");
 
-        assertEquals(true, result.isSuccess());
+        assertEquals(false, result.isSuccess());
     }
 }
