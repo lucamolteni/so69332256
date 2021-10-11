@@ -2,7 +2,7 @@ package drools.project;
 
 public class BookEventResult {
 
-    private boolean success;
+    private boolean success = true;
 
     private String reason;
 
